@@ -44,7 +44,7 @@ int diameter1(Node * root){
     return max(max(curr,leftDiam),rightDiam);
 }
 
-pair<int,int> diameter2(Node * root){
+pair<int,int> diameter2(Node * root){ // pair of diam , height
     if(root==NULL){
         int height = 0;
         int diam = 0;
